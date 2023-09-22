@@ -17,8 +17,8 @@ jobs:
     - name: Run crawler tool
       uses: docker://ghcr.io/zkoppert/innersource-crawler:v1
       env:
-        GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        ORGANIZATION: ${{ secrets.ORGANIZATION }}
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        ORGANIZATION: innersource-portal-demo
         # for multiple topics, add them after a comma eg:
         # TOPIC: innersource,actions,security,python
         TOPIC: innersource
