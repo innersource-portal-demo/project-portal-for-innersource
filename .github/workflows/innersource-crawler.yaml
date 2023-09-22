@@ -22,3 +22,14 @@ jobs:
         # for multiple topics, add them after a comma eg:
         # TOPIC: innersource,actions,security,python
         TOPIC: innersource
+
+    - name: Push file to InnerSource Project Portal repository
+      uses: dmnemec/copy_file_to_another_repo_action@v1.1.1
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.YOUR_ACCESS_TOKEN_HERE }}
+      with:
+        source_file: 'repos.json'
+        destination_repo: 'innersource-portal-demo/project-portal-for-innersource'
+        destination_branch: main
+        user_email: 'zkoppert@github.com'
+        user_name: 'Zachery Koppert'
