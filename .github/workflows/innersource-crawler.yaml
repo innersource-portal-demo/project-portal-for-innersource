@@ -26,7 +26,7 @@ jobs:
     - name: Push file to InnerSource Project Portal repository
       uses: dmnemec/copy_file_to_another_repo_action@v1.1.1
       env:
-        API_TOKEN_GITHUB: ${{ secrets.YOUR_ACCESS_TOKEN_HERE }}
+        API_TOKEN_GITHUB: ${{ secrets.INNERSOURCE_PORTAL_DEMO}}
       with:
         source_file: 'repos.json'
         destination_repo: 'innersource-portal-demo/project-portal-for-innersource'
