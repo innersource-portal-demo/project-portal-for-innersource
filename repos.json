@@ -107,7 +107,7 @@
             "triage": false,
             "pull": false
         },
-        "score": 900,
+        "score": 895,
         "_InnerSourceMetadata": {
             "participation": [
                 0,
@@ -166,7 +166,7 @@
             "topics": [
                 "innersource"
             ],
-            "score": 900
+            "score": 895
         }
     },
     {
@@ -277,7 +277,7 @@
             "triage": false,
             "pull": false
         },
-        "score": 890,
+        "score": 885,
         "_InnerSourceMetadata": {
             "participation": [
                 0,
@@ -336,7 +336,7 @@
             "topics": [
                 "innersource"
             ],
-            "score": 890
+            "score": 885
         }
     }
 ]
