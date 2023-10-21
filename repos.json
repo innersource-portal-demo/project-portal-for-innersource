@@ -107,10 +107,9 @@
             "triage": false,
             "pull": false
         },
-        "score": 821,
+        "score": 816,
         "_InnerSourceMetadata": {
             "participation": [
-                0,
                 0,
                 0,
                 0,
@@ -161,12 +160,13 @@
                 1,
                 0,
                 0,
+                0,
                 0
             ],
             "topics": [
                 "innersource"
             ],
-            "score": 821
+            "score": 816
         }
     },
     {
@@ -277,10 +277,9 @@
             "triage": false,
             "pull": false
         },
-        "score": 811,
+        "score": 806,
         "_InnerSourceMetadata": {
             "participation": [
-                0,
                 0,
                 0,
                 0,
@@ -331,12 +330,13 @@
                 1,
                 0,
                 0,
+                0,
                 0
             ],
             "topics": [
                 "innersource"
             ],
-            "score": 811
+            "score": 806
         }
     }
 ]
